@@ -1,0 +1,128 @@
+{
+  "breadcrumbs.enabled": false,
+
+  "codesnap.backgroundColor": "#FFC540",
+  "codesnap.showLineNumbers": false,
+  "codesnap.roundedCorners": true,
+  "codesnap.containerPadding": "8em",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0.55) 0px 12px 24px",
+
+  "diffEditor.wordWrap": "on",
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "editor.tabSize": 2,
+  "editor.padding.top": 16,
+  "editor.hover.delay": 1000,
+  "editor.lineNumbers": "off",
+  "editor.wordWrapColumn": 120,
+  "editor.hover.enabled": true,
+  "editor.fontLigatures": true,
+  "editor.linkedEditing": true,
+  "editor.suggestFontSize": 16,
+  "editor.suggestLineHeight": 30,
+  "editor.colorDecorators": false,
+  "editor.minimap.enabled": false,
+  "editor.detectIndentation": false,
+  "editor.guides.indentation": false,
+  "editor.selectionHighlight": false,
+  "terminal.integrated.fontSize": 16,
+  "editor.snippetSuggestions": "top",
+  "editor.overviewRulerBorder": false,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.renderLineHighlight": "none",
+  "editor.accessibilitySupport": "off",
+  "editor.occurrencesHighlight": "off",
+  "editor.stickyScroll.enabled": false,
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.renderControlCharacters": false,
+  "editor.emptySelectionClipboard": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.fontFamily": "Cascadia Code, Geist Mono, JetBrains Mono, Fira Code",
+  "explorer.sortOrder": "type",
+
+  "files.autoSave": "afterDelay",
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+
+  "notebook.output.wordWrap": true,
+
+  "prettier.tabWidth": 2,
+  "prettier.requireConfig": true,
+  "prettier.useEditorConfig": false,
+  "problems.decorations.enabled": false,
+
+  "security.workspace.trust.untrustedFiles": "open",
+
+  "vscode_custom_css.imports": [
+    "file:///C:/Users/IPASS Processing/Documents/vscode-styles/custom-vscode-styles.css",
+    "file:///C:/Users/IPASS Processing/Documents/vscode-styles/custom-vscode-scripts.js"
+  ],
+
+  "window.newWindowDimensions": "inherit",
+
+  "workbench.tree.indent": 16,
+  "workbench.tips.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.enablePreview": false,
+  "workbench.activityBar.location": "hidden",
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.colorTheme": "One Dark Pro Darker",
+
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment",
+          "keyword",
+          "variable.language",
+          "entity.other.attribute-name.html",
+          "entity.other.attribute-name",
+          "keyword.control",
+          "storage.type",
+          "comment",
+          "comment.block",
+          "comment.line"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  }
+}
